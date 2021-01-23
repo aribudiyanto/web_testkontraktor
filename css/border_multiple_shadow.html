@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- <html lang="en" dir="ltr"> -->
+<head>
+    <meta charset="utf-8">
+    <title>Border_Shadow</title>
+    <style>
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .satu, .dua, .tiga, .empat {
+            /* border:solid; */
+            width: 200px;
+            height: 200px;
+            image: url("hearts.png"); 
+            margin-left:50px;
+            margin-bottom:50px;
+            background: greenyellow;
+            float:left;
+            margin-top: 50px;
+           
+        }
+
+        .satu {
+            box-shadow: 10px 10px, -10px -10px red;
+        }
+
+        .dua {
+            box-shadow: 10px 10px blue, 10px 20px yellow;
+        }
+
+        .tiga {
+            box-shadow: 10px 10px 10px, inset -30px -30px 30px;
+        }
+
+        .empat {
+            box-shadow: 10px 10px 10px hsl(100, 100%, 50%), 
+            inset -7px -7px 3px hsl(150 ,100%, 50%);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="satu">satu</div>
+        <div class="dua">dua</div>
+        <div class="tiga">tiga</div>
+        <div class="empat">empat</div>
+       
+    </div>
+</body>
+</html>

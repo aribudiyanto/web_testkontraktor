@@ -1,0 +1,62 @@
+.header{
+    width: 1376px;
+    height: 38px;
+    background:black;
+    margin-left: -15px;
+    
+}
+
+.opt{
+    margin-left: -100px;
+    
+}
+
+.option {
+    color:white;
+    font-size: 10px;
+    column-width: 60px;
+    column-fill: balance;
+    object-position: left;
+
+
+}
+
+.span {
+    column-span: all;
+}
+
+.span1 {
+    height: 310px;
+    column-width: 245px;
+    column-fill: balance;
+    column-rule: 2px solid black;
+  
+}
+
+.span2 {
+    column-span: all;
+    height: 310px;
+    column-width: 245px;
+    column-fill: balance;
+    column-rule: 2px solid black;
+}
+
+.span3 {
+    column-span: all;
+    height: 310px;
+    column-width: 245px;
+    column-fill: balance;
+    column-rule: 2px solid black;
+} 
+
+.footer {
+    width:1376px;
+    height: 38px;
+    margin-left: -15px;
+    font-size: 12px;
+    position: bottom;
+    background: black;
+    color: white;
+    text-align: center;
+
+}

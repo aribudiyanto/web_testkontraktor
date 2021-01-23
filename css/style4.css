@@ -1,0 +1,33 @@
+.register {
+    font-size: 40;
+}
+
+.p1 {
+    font-size: 17px;
+}
+
+
+.p2 {
+    font-size: 17px;
+}
+
+.p3 {
+    font-size: 17px;
+    font-style: bold;
+}
+
+.p4 {
+    font-size: 17px;
+}
+
+.p5 {
+    font-size: 17px;
+    font-weight: 10px;
+}
+
+
+.button {
+    color:orange;
+    font-size: 30px;
+    padding: 1px 10px;
+}

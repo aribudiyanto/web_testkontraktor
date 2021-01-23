@@ -1,0 +1,30 @@
+img {
+    widht:1366;
+    height: 800;
+    z-index: 1;
+}
+/* .container{
+    width: 700px;
+    height: 500px; */
+
+/* .container {
+    width: 700px;
+    height: 500px;
+    text-align:right;
+    position: right; */
+    
+
+/* .satu,
+.dua,
+.tiga,
+.empat,
+.lima, */
+
+.container{
+    width: 700px;
+    height: 500px;
+    /* position: bottom; */
+    margin: 0 ;
+    position: relative;
+    z-index: 2;
+}

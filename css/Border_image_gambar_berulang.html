@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- <html lang="en" dir="ltr"> -->
+<head>
+    <meta charset="utf-8">
+    <title>Border_Image</title>
+    <style>
+        .container {
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        .satu {
+            border:solid;
+            width: 200px;
+            height: 200px;
+            margin-top:50px;
+            background: greenyellow;
+            border-image-repeat: round;
+            border-image-source: url(border1.png);
+            border-image-width: 33px;
+            border-image-slice: 30 60 ;
+            border-image-outset: 40px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="satu">satu</div>
+       
+    </div>
+</body>
+</html>

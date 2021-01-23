@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Belajar CSS</title>
+        <style>
+            div {
+                width: 500px;
+                height: 250px;
+                margin: 0 auto;
+                border: 2px solid black;
+                float: left;
+                margin: 20px;
+                font-size: 30px;
+                text-align: center;  
+            }
+
+            .satu{
+                background-image: repeating-linear-gradient( to top, blue, white 10%);
+            }
+            .dua{
+                background-image: repeating-linear-gradient(to bottom right, blue,white 10px);
+            }
+            .tiga{
+                background-image: repeating-linear-gradient(to top right, blue, white, yellow 1%);
+            }
+            .empat{
+                background-image: repeating-linear-gradient(
+                    90deg, 
+                    red, 
+                    orange, 
+                    yellow, 
+                    blue, 
+                    white 10%);
+            }
+        </style>
+        </head>
+        <body>
+            <div class="satu"></div>
+            <div class="dua"></div>
+            <div class="tiga"></div>
+            <div class="empat"></div>
+        </body>
+        </html>

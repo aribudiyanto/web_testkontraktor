@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+}
+
+/* tidak boleh digunakan berulang kali */
+#judul {  
+    color: orange;
+}
+
+.belajar {
+    color: green;
+}
+
+h3, h4, h5 {
+    color: red;
+}

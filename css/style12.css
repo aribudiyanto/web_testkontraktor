@@ -1,0 +1,48 @@
+.option {
+    width: 1376px;
+    height: 100px;
+    background-color: black;
+    column-span: all;
+    column-width: 50px;
+    /* text-align: left; */
+}
+
+.card {
+    background-color:#7FFFD4;
+    width:1376px;
+}
+
+.slider-img {
+    width: 1330px;
+    height: 600px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.image{
+    width: 200x;
+    height: 280px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float:left;
+
+}
+
+.p-text{
+    column-span: all;
+    height: 420px;
+    column-width: 245px;
+    column-count: 4;
+    column-fill: balance;
+    column-rule: 2px solid black;
+}
+
+.footer {
+    width: 1376px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

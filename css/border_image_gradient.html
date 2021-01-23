@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- <html lang="en" dir="ltr"> -->
+<head>
+    <meta charset="utf-8">
+    <title>Border_Image</title>
+    <style>
+        .container {
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        .satu {
+            border:solid;
+            width: 200px;
+            height: 200px;
+            background: greenyellow;
+            border-image-repeat: round;
+            border-image-source: repeating-linear-gradient(blue,white,green 10px) ;
+            border-image-width: 33px;
+            border-image-slice: 10% ;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="satu">satu</div>
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    color: white;
+    font-family: Poppins, "Helvetica Neue", arial, sans-serif;
+    font-size: 1.5em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+.box1{
+    background-color:#1dd0ad;   
+}
+.box2{
+    background-color:#3498db;
+}
+.box3{
+    background-color:#3498db;
+}
+.box4{
+    background-color:#3498db;
+}
+.box5{
+    background-color:#9b59b6;
+}
+.box6{
+    background-color:#34495e;
+}
+.box7{
+    background-color:#f1c40f;
+}
+.box8{
+    background-color:#e67e22;
+}
+.box9{
+    background-color:#34495e;
+}
+.box10{
+    background-color:#9b59b6;
+}
+
+
+.container2{
+    padding: 0px;
+    color: white;
+    font-family: Poppins, "Helvetica Neue", arial, sans-serif;
+    font-size: 1.5em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+.box1{
+    background-color:#1dd0ad; 
+    width: 250px;
+    height: 100px;   
+}
+.box2{
+    background-color:#3498db;
+}
+.box4{
+    background-color:#3498db;
+}
+.box5{
+    background-color:#9b59b6;
+}
+.box6{
+    background-color:#34495e;
+}
+.box7{
+    background-color:#f1c40f;
+}
+.box8{
+    background-color:#e67e22;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    color: white;
+    font-family: Poppins, "Helvetica Neue", arial, sans-serif;
+    font-size: 1.5em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+   
+}
+
+.box1{
+    background-color:#1dd0ad;  
+    width: 200px;
+    height: 100px; 
+}
+.box2{
+    background-color:#3498db;
+    width: 200px;
+    height: 100px; 
+}
+.box3{
+    background-color:#3498db;
+    width: 200px;
+    height: 100px; 
+}
+.box4{
+    background-color:#3498db;
+    width: 200px;
+    height: 100px; 
+}
+.box5{
+    background-color:#9b59b6;
+    width: 200px;
+    height: 100px; 
+}
+.box6{
+    background-color:#34495e;
+    width: 200px;
+    height: 100px; 
+}
+.box7{
+    background-color:#f1c40f;
+    width: 200px;
+    height: 100px; 
+}
+.box8{
+    background-color:#e67e22;
+    width: 200px;
+    height: 100px; 
+}
+.box9{
+    background-color:#34495e;
+    width: 200px;
+    height: 100px; 
+}
+.box10{
+    background-color:#9b59b6;
+    width: 200px;
+    height: 100px; 
+}
